@@ -57,7 +57,7 @@ constructor TEvent.Create;
 begin
   FDate := Date;
   FTime := Time;
-  FCategorie := clBlack;
+  FCategorie := clBlack;   // Default Color
 end;
 
 end.
