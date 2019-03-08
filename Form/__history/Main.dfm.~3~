@@ -2,7 +2,7 @@ object frmMain: TfrmMain
   Left = 193
   Top = 125
   BorderStyle = bsSingle
-  Caption = 'CreEvent'
+  Caption = 'Create of Event'
   ClientHeight = 334
   ClientWidth = 598
   Color = clBtnFace

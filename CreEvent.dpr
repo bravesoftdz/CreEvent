@@ -1,4 +1,4 @@
-program CreateEvent;
+program CreEvent;
 
 uses
   Forms,
