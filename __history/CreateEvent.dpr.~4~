@@ -1,0 +1,15 @@
+program CreateEvent;
+
+uses
+  Forms,
+  Main in 'Main.pas' {frmMain},
+  uEvent in 'uEvent.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.Title := 'CreateEvent';
+  Application.CreateForm(TfrmMain, frmMain);
+  Application.Run;
+end.

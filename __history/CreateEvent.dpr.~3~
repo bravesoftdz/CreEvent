@@ -1,0 +1,16 @@
+program CreateEvent;
+
+uses
+  Forms,
+  Main in 'Main.pas' {frmMain},
+  uEvent in 'uEvent.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.Title := 'Exemplo de Prototype';
+  AApplication.CreateForm(TForm1, Form1);
+  AApplication.CreateForm(TfTela, fTela);
+  plication.Run;
+end.

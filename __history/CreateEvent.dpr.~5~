@@ -1,0 +1,17 @@
+program CreateEvent;
+
+uses
+  Forms,
+  Main in 'Form\Main.pas' {frmMain},
+  uEvent in 'Unit\uEvent.pas',
+  Module in 'Module\Module.pas' {DMModule: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.Title := 'CreateEvent';
+  AApplication.CreateForm(TfrmMain, frmMain);
+  AApplication.CreateForm(TDataModule1, DataModule1);
+  plication.Run;
+end.
