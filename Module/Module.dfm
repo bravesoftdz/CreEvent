@@ -37,6 +37,7 @@ object DMModule: TDMModule
       FieldName = 'ID'
       Origin = 'ID'
       ProviderFlags = [pfInWhere, pfInKey]
+      ReadOnly = True
     end
     object qrCheckEvtName: TStringField
       FieldName = 'EvtName'

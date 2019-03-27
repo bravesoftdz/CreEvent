@@ -13,7 +13,7 @@ uses
 
 const
   DnameDataBase = 'Daten\Event.db';
-  FnameDataBase = '\Daten';
+  FnameDataBase = 'Daten\';
 
 type
   TDMModule = class(TDataModule)
